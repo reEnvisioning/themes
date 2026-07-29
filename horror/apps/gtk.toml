@@ -1,0 +1,10 @@
+[meta]
+app = "gtk"
+schema = 1
+handler = "settings"
+dynamic = false
+
+[settings]
+theme = "Catppuccin-Mocha-Standard-Maroon-Dark"
+prefer_dark = true
+

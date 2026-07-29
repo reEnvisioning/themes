@@ -1,0 +1,80 @@
+[meta]
+app = "btop"
+schema = 1
+handler = "file"
+target = "~/.config/btop/themes"
+filename = "current.theme"
+dynamic = false
+
+[content]
+text = """
+theme[main_bg]=#0a0908
+theme[main_fg]=#e8dcc8
+theme[title]=#e8dcc8
+theme[hi_fg]=#F0B040
+theme[selected_bg]=#4a4038
+theme[selected_fg]=#e8dcc8
+theme[inactive_fg]=#c4b49a
+theme[graph_text]=#8a7a64
+theme[meter_bg]=#242018
+theme[proc_misc]=#B07AAA
+theme[cpu_box]=#6ABAAA
+theme[mem_box]=#9ABA5E
+theme[net_box]=#7AAABA
+theme[proc_box]=#9A8ABA
+theme[div_line]=#242018
+
+# Temperature graph
+theme[temp_start]=#9ABA5E
+theme[temp_mid]=#F0C040
+theme[temp_end]=#D4553A
+
+# CPU graph
+theme[cpu_start]=#6ABAAA
+theme[cpu_mid]=#6A9AAA
+theme[cpu_end]=#9A8ABA
+
+# Mem/Disk free meter
+theme[free_start]=#E86A4A
+theme[free_mid]=#F0C040
+theme[free_end]=#9ABA5E
+
+# Mem/Disk cached meter
+theme[cached_start]=#6A9AAA
+theme[cached_mid]=#4A7C9A
+theme[cached_end]=#7AAABA
+
+# Mem/Disk available meter
+theme[available_start]=#9ABA5E
+theme[available_mid]=#F0C040
+theme[available_end]=#F0A850
+
+# Mem/Disk used meter
+theme[used_start]=#9ABA5E
+theme[used_mid]=#E07A9A
+theme[used_end]=#E86A4A
+
+# Download graph
+theme[download_start]=#9ABA5E
+theme[download_mid]=#6ABAAA
+theme[download_end]=#4A7C9A
+
+# Upload graph
+theme[upload_start]=#E86A4A
+theme[upload_mid]=#E07A9A
+theme[upload_end]=#F0C040
+
+# Process box gradient
+theme[process_start]=#4f4c46
+theme[process_mid]=#242018
+theme[process_end]=#191610
+
+# Process list banner
+theme[proc_pause_bg]=#242018
+theme[proc_follow_bg]=#7AAECE
+theme[proc_banner_bg]=#E8A040
+theme[proc_banner_fg]=#e8dcc8
+theme[followed_bg]=#4a4038
+theme[followed_fg]=#7AAECE
+
+"""

@@ -1,0 +1,4 @@
+schema = 1
+name = "sakura"
+mode = "light"
+compat_json = "theme.json"

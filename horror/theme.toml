@@ -1,0 +1,4 @@
+schema = 1
+name = "horror"
+mode = "dark"
+compat_json = "theme.json"

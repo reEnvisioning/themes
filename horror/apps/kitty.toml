@@ -1,0 +1,59 @@
+[meta]
+app = "kitty"
+schema = 1
+handler = "file"
+target = "~/.config/kitty"
+filename = "kitty.conf"
+dynamic = false
+
+[content]
+text = """
+background #0a0908
+foreground #e8dcc8
+cursor #d4c4a8
+selection_background #4a4038
+selection_foreground #0a0908
+url_color #7AAECE
+
+# Normal colors
+color0 #0a0908
+color1 #E86A4A
+color2 #9ABA5E
+color3 #F0C040
+color4 #4A7C9A
+color5 #E07A9A
+color6 #6ABAAA
+color7 #e8dcc8
+
+# Bright colors
+color8 #242018
+color9 #B84A3A
+color10 #F0C040
+color11 #F0A850
+color12 #7AAABA
+color13 #E08A9A
+color14 #6A9AAA
+color15 #c4b49a
+
+# Marks
+mark1_foreground #7AAECE
+mark2_foreground #7ABA5E
+mark3_foreground #E8A040
+
+# Tabs
+tab_bar_background #1a1712
+tab_bar_margin_color #0a0908
+active_tab_background #4a4038
+active_tab_foreground #e8dcc8
+inactive_tab_background #242018
+inactive_tab_foreground #c4b49a
+
+# Window
+active_border_color #3a3028
+inactive_border_color #242018
+
+font_family Monospace
+font_size 10
+confirm_os_window_close 0
+
+"""

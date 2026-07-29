@@ -1,0 +1,12 @@
+[meta]
+app = "localsend_app"
+schema = 1
+handler = "settings"
+dynamic = false
+
+[settings]
+mode = "dark"
+color = "oled"
+target = "~/.local/share/org.localsend.localsend_app"
+filename = "shared_preferences.json"
+

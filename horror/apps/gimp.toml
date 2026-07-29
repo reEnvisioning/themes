@@ -1,0 +1,10 @@
+[meta]
+app = "gimp"
+schema = 1
+handler = "settings"
+dynamic = false
+
+[settings]
+theme = "Default"
+color_scheme = "dark"
+

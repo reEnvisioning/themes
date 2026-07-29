@@ -1,0 +1,10 @@
+[meta]
+app = "kdenlive"
+schema = 1
+handler = "settings"
+dynamic = false
+
+[settings]
+scheme = "BreezeDark"
+widget_style = "Fusion"
+
