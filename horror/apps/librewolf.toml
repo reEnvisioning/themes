@@ -1,8 +1,0 @@
-[meta]
-app = "librewolf"
-schema = 1
-handler = "settings"
-dynamic = false
-
-[settings]
-dark_mode = true

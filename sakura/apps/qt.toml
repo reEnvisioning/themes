@@ -1,8 +1,0 @@
-[meta]
-app = "qt"
-schema = 1
-handler = "settings"
-dynamic = false
-
-[settings]
-style = "Adwaita"
