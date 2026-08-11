@@ -24,4 +24,4 @@ A pack may also include `wallpapers.toml` and the referenced image files under `
 
 ## Ownership
 
-reTheme selects themes and wallpapers, resolves pack-relative wallpaper paths, and passes the selected path onward. reWallpaper only applies an explicit image path; it does not discover theme packs or select a theme or wallpaper. NixOS only provides fonts, non-theme settings, and stable generated Kitty/btop paths.
+reTheme selects themes and wallpapers, resolves pack-relative wallpaper paths, and passes the selected path onward. reWallpaper only applies an explicit image path; it does not discover theme packs or select a theme or wallpaper. NixOS owns system/application theming through Stylix and does not consume this repository as a runtime input.
